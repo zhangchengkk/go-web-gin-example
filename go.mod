@@ -13,4 +13,5 @@ require (
 	github.com/labstack/gommon v0.3.0
 	github.com/smartwalle/alipay/v3 v3.1.6
 	github.com/unrolled/secure v1.0.8
+	github.com/wechatpay-apiv3/wechatpay-go v0.1.3
 )

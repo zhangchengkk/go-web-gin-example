@@ -1,4 +1,4 @@
-package handler
+package JWT
 
 import (
 	"github.com/labstack/gommon/log"
@@ -13,7 +13,7 @@ type CustomToken struct {
 	UserId     int
 }
 
-const SecretKey = "youKwtPrimateKey"
+const SecretKey = "customJwtPrivateKey"
 const ExpireTime = 3600 *  24// token有效期
 
 /*
